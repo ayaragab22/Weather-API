@@ -8,7 +8,7 @@ let cityName = document.getElementById("cityName");
 
 
 async function getCountry(country) {
-    let data = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=3e6f2e7ccb854d4286805526252112&q=${country ? country:"Egypt"}&days=3&aqi=yes&alerts=yes`);
+    let data = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=3e6f2e7ccb854d4286805526252112&q=${country ? country:"Egypt"}&days=3&aqi=yes&alerts=yes`);
     let res = await data.json();
     display(res);
 }
