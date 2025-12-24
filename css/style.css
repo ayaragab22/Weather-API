@@ -1,0 +1,97 @@
+*{
+    font-family: "Dancing Script", cursive;
+}
+
+:root{
+
+    --brown-shade: #2F1420;
+    --beige-shade:#F5DEB3;
+    --dark-brown: #654321;
+    --deep-burgundy: #521B2E;
+    --golden-hills: #D28C3C;
+    --sky-blue: #87CEFA;
+}
+
+/* Start of Navbar */
+
+#nav .navbar{
+    height: 100px;
+    background-color: var(--deep-burgundy);
+
+}
+#nav .btn-outline{
+    color: var(--beige-shade);
+    border-color: var(--beige-shade);
+    
+}
+#nav .btn-outline:hover{
+    background-color: var(--beige-shade);
+    color: var(--deep-burgundy);
+}
+#nav a{
+    font-size: 30px;
+    color: var(--beige-shade);
+}
+#nav span i{
+    font-size: 40px;
+    margin-right: 10px;
+    color: var(--golden-hills);
+}
+#nav i{
+    font-size: 30px;
+    margin-right: 2px;
+    color: var(--golden-hills);
+}
+#nav li{
+    margin-right: 15px;
+}
+/* End of Navbar */
+
+/* Start of Section content */
+body{
+    background: url(../images/sodbayar-photography-1O1KExjoQQY-unsplash.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.content{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+h1{
+    font-size: 100px;
+    margin: auto;
+    color: var(--deep-burgundy);
+    font-weight: 900;
+}
+.card img{
+    height: 100px;
+    width: 100px;
+}
+.card-footer{
+    height: 50px;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* End of Section content */
+
+/* Start of Footer */
+.footerContent{
+    background-color: var(--deep-burgundy);
+    height: 100px;
+    color: var(--beige-shade);
+    margin-top: 50px;
+}
+.footerContent span{
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.footerContent span:hover{
+    color: var(--golden-hills);
+    cursor: pointer;
+}
+
+/* End of Footer */

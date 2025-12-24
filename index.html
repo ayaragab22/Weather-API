@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather</title>
+</head>
+<body>
+
+<!-- Start of Navbar -->
+<div id="nav">
+    <div class="navContainer">
+        <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span><i class="fa-solid fa-cloud-sun"></i></span>
+                Weather</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="fa-brands fa-think-peaks"></i>
+                    Predictions</a>
+                </li>
+                
+            </ul>
+            <form class="d-flex" role="search">
+                <input id="countrySearch" class="form-control me-2 px-5" type="search" placeholder="Search for a City..." aria-label="Search"/>
+                <button id="searchBtn" class="btn btn-outline rounded-pill py-3 px-2" type="button">Search</button>
+            </form>
+            </div>
+        </div>
+        </nav>        
+    </div>
+</div>
+
+<!-- End of Navbar --> 
+
+<!-- Start of Section content -->
+<section class="pt-5">
+        <div class="sectionContainer pt-5">
+            <h1 id="cityName" class="text-center"></h1>
+            <div class="row pt-5 pb-5 ps-5 pe-5">
+                <div class="col-md-4">
+                    <div id="card1" class="card text-center">
+                    
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div id="card2" class="card text-center">
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div id="card3" class="card text-center">
+                   
+                    </div>
+                </div>
+            </div>
+        </div>  
+</section>
+<!-- End of Section content -->
+
+<!-- Start of footer -->
+ <footer>
+    <div class="footerContent text-center">
+        <div class="icons">
+            <span><i class="fa-brands fa-facebook-f"></i></span>
+            <span><i class="fa-brands fa-twitter"></i></span>
+            <span><i class="fa-brands fa-google"></i></span>
+            <span><i class="fa-brands fa-github"></i></span>
+            
+    </div>
+    <p>Copy Right 2018 © By Theme-fair All Rights Reserved</p>
+    </div>
+ </footer>
+<!-- End of footer -->
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
